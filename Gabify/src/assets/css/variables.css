@@ -1,0 +1,21 @@
+:root {
+  /* FONTES */
+  --font-dm-sans:"DM Sans", sans-serif;
+  
+  /* Paleta Principal (Light Mode) */
+  --first-color: #0078D7;
+  --second-color: #F05A28;
+  --light-color: #50BFEF;
+  --txt-color: #121212;
+  --background-color: #ddeeff;
+}
+
+[data-theme="dark"] {
+  --font-dm-sans:"DM Sans", sans-serif;
+  /* Paleta Principal (Light Mode) */
+  --first-color: #50BFEF;
+  --second-color: #e75224;
+  --light-color: #001d36;
+  --txt-color: #D9E1EF;
+  --background-color: #212121;
+}
